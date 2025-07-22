@@ -27,8 +27,6 @@ def myatoi(s)
   frontend = true
 
   for i in s.each_char
-    puts "char: #{i}"
-
     if frontend && i == ' ' then
       next
     elsif frontend && i == '-' then
